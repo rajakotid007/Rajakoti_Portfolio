@@ -1,76 +1,161 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Raja Koti | Portfolio</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-body{
-font-family:Arial;
-margin:0;
-background:#f5f5f5;
-text-align:center;
-}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Premium Portfolio</title>
+    <meta
+      name="description"
+      content="Software Engineer | AI Engineer | Patent Holder - premium personal portfolio."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="nav container">
+        <a class="brand" href="#top">Portfolio</a>
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#highlights">Highlights</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-header{
-background:#111;
-color:white;
-padding:60px;
-}
+    <main>
+      <section id="hero" class="hero section">
+        <div class="container reveal hero-grid">
+          <div class="hero-inner">
+            <p class="section-label">Premium Engineering Portfolio</p>
+            <h1>Software Engineer | AI Engineer | Patent Holder</h1>
+            <p class="lead">
+              I build scalable software systems and AI-powered solutions with a strong foundation
+              in software engineering, machine learning, and cloud-native development.
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="#contact">Get in touch</a>
+              <a class="btn btn-ghost" href="#experience">View experience</a>
+            </div>
+          </div>
+        </div>
+      </section>
 
-section{
-padding:40px;
-max-width:900px;
-margin:auto;
-}
+      <section id="about" class="section">
+        <div class="container split reveal">
+          <div class="section-heading">
+            <p class="section-label">Profile</p>
+            <h2>About</h2>
+          </div>
+          <p>
+            I am a software engineer with experience building scalable applications,
+            AI-enabled systems, and production-grade software across the full development
+            lifecycle. My background combines strong engineering fundamentals with advanced
+            study in machine learning and artificial intelligence. I am a US citizen, a
+            Certified Professional Engineer in the USA, a patent holder, an NCEES member,
+            and an author of IEEE and US-published technical papers.
+          </p>
+        </div>
+      </section>
 
-h1{
-font-size:40px;
-}
+      <section id="highlights" class="section section-soft">
+        <div class="container reveal">
+          <div class="section-heading">
+            <p class="section-label">Recognition</p>
+            <h2>Highlights</h2>
+          </div>
+          <div class="cards-grid">
+            <article class="card">Patent holder in data analytics and machine learning tooling</article>
+            <article class="card">Certified P.E. in the USA</article>
+            <article class="card">NCEES member</article>
+            <article class="card">Published IEEE and US technical papers</article>
+            <article class="card">Postgraduate study in Machine Learning and Artificial Intelligence</article>
+            <article class="card">Strong experience across software engineering, AI systems, and cloud platforms</article>
+          </div>
+        </div>
+      </section>
 
-footer{
-background:#111;
-color:white;
-padding:20px;
-margin-top:40px;
-}
-</style>
-</head>
+      <section id="skills" class="section">
+        <div class="container reveal">
+          <div class="section-heading">
+            <p class="section-label">Capability</p>
+            <h2>Skills</h2>
+          </div>
+          <div class="skills-list">
+            <article class="skill-row"><h3>Languages</h3><p>Python, Java, C++, JavaScript, SQL, Scala</p></article>
+            <article class="skill-row"><h3>Backend</h3><p>Microservices, REST APIs, Distributed Systems, System Design</p></article>
+            <article class="skill-row"><h3>AI</h3><p>Generative AI, LLMs, LangChain, RAG, NLP, TensorFlow, PyTorch</p></article>
+            <article class="skill-row"><h3>Cloud</h3><p>AWS, Azure</p></article>
+            <article class="skill-row"><h3>DevOps</h3><p>Docker, Kubernetes, CI/CD, Terraform</p></article>
+            <article class="skill-row"><h3>Databases</h3><p>PostgreSQL, MySQL, SQL Server, MongoDB, Redis</p></article>
+            <article class="skill-row"><h3>Frontend</h3><p>React.js, Node.js, Express.js</p></article>
+            <article class="skill-row"><h3>Practices</h3><p>Agile, Scrum, TDD, Unit Testing, Integration Testing</p></article>
+          </div>
+        </div>
+      </section>
 
-<body>
+      <section id="experience" class="section section-soft">
+        <div class="container reveal">
+          <div class="section-heading">
+            <p class="section-label">Career</p>
+            <h2>Experience</h2>
+          </div>
+          <div class="experience-stack">
+            <article class="experience-item"><div class="experience-head"><h3>Software Engineer</h3><span>2025–Present</span></div><p>Working on scalable software systems and modern engineering solutions with a focus on reliability, architecture, and production delivery.</p></article>
+            <article class="experience-item"><div class="experience-head"><h3>Software Engineer</h3><span>2022–2025</span></div><p>Built and delivered software solutions across the full lifecycle, collaborating with cross-functional teams in Agile environments and contributing to backend services, application development, and system integration.</p></article>
+            <article class="experience-item"><div class="experience-head"><h3>Software Engineer</h3><span>2021–2022</span></div><p>Contributed to software platforms requiring robust engineering practices, API integration, and scalable service development.</p></article>
+            <article class="experience-item"><div class="experience-head"><h3>Software Engineer / AI Engineer</h3><span>2020–2021</span></div><p>Worked on intelligent systems and backend services, with a focus on production readiness, deployment workflows, and secure data-driven applications.</p></article>
+          </div>
+        </div>
+      </section>
 
-<header>
-<h1>Raja Koti</h1>
-<p>Software Engineer | AI Engineer | Patent Holder</p>
-</header>
+      <section id="education" class="section">
+        <div class="container reveal">
+          <div class="section-heading"><p class="section-label">Academic</p><h2>Education</h2></div>
+          <ul class="education-list">
+            <li>Postgraduate Studies in Machine Learning and Artificial Intelligence, University of Texas at Austin</li>
+            <li>Master’s in Engineering, Indian Institute of Science, Bangalore</li>
+            <li>Bachelor’s in Engineering</li>
+          </ul>
+        </div>
+      </section>
 
-<section>
-<h2>About Me</h2>
-<p>
-Software engineer with experience building scalable systems,
-AI solutions, and modern applications. Patent holder and
-published technical author with advanced education in
-Machine Learning and Artificial Intelligence.
-</p>
-</section>
+      <section id="contact" class="section section-soft">
+        <div class="container reveal contact-wrap">
+          <div class="contact-card">
+            <p class="section-label">Direct</p>
+            <h2>Contact</h2>
+            <p>Open to impactful engineering and AI opportunities.</p>
+            <div class="contact-actions">
+              <a class="btn" href="mailto:youremail@example.com">Start a conversation</a>
+              <a class="contact-link" href="mailto:youremail@example.com">youremail@example.com</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
 
-<section>
-<h2>Skills</h2>
-<p>
-Python • Java • C++ • SQL • Machine Learning • AWS • Docker • Kubernetes
-</p>
-</section>
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Premium Portfolio</p>
+        <div class="footer-links">
+          <a href="#contact">Contact</a><span>•</span><a href="#top">Back to top</a>
+        </div>
+      </div>
+    </footer>
 
-<section>
-<h2>Education</h2>
-<p>
-University of Texas at Austin — Machine Learning & AI<br>
-Indian Institute of Science — Masters in Engineering
-</p>
-</section>
-
-<footer>
-<p>© 2025 Raja Koti</p>
-</footer>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
